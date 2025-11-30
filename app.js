@@ -95,6 +95,13 @@ res.locals.currUser = req.user;
 //    res.send(registeredUser);
 // });
 
+//! change here
+
+app.get("/", (req, res) => {
+    res.redirect("/listings");
+});
+
+
 app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewsRouter);
 app.use("/", userRouter);

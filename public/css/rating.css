@@ -195,3 +195,24 @@
     -webkit-transition: background-position .7s;
     transition: background-position .7s;
   }
+
+  .review-card-body{
+  overflow: hidden;
+}
+
+.starability-result{
+  display: block;
+  max-width: 100%;
+}
+
+.review-card-body{
+  overflow: hidden;
+  background: white !important;
+}
+
+.starability-result{
+  background: transparent !important;
+  display: block;
+  max-width: 100%;
+}
+
